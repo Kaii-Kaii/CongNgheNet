@@ -14,9 +14,6 @@ namespace CongNgheNet
 {
     public partial class Form1 : Form
     {
-        //	<connectionStrings>
-        //<add name = "conn" connectionString="Data Source=KAIIKAII;Initial Catalog=Net_user;Integrated Security=True;Encrypt=True;TrustServerCertificate=True"/>
-        //</connectionStrings>
         SqlConnection connect = new SqlConnection(ConfigurationManager.ConnectionStrings["conn"].ConnectionString);    
         public Form1()
         {
